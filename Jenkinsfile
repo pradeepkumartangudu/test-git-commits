@@ -13,6 +13,7 @@ pipeline {
           returnStdout: true
         ).split('\n')
         println "Commits are: $commits"
+	      println("sucess")
       }
     }
             }
